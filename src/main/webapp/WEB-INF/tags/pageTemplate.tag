@@ -17,7 +17,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
     </head>
     <body>
-        <jsp:include page="WEB-INF/pages/menu.jsp" />
+        <jsp:include page="/WEB-INF/pages/menu.jsp" />
         <main role="main" class="container">
             <jsp:doBody />
         </main>
