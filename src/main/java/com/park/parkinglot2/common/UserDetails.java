@@ -24,4 +24,17 @@ public class UserDetails {
     public Integer getId(){
         return id;
     }
+
+    public String getUsername() {
+        return username;
+    }
+
+    public String getEmail() {
+        return email;
+    }
+
+    public String getPosition() {
+        return position;
+    }
+    
 }
