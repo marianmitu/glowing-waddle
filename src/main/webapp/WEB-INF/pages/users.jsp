@@ -5,7 +5,7 @@
 <t:pageTemplate pageTitle="Users">
     <h1>Cars</h1>
     <c:if test="${pageContext.request.isUserInRole('AdminRole')}">
-        <a class="btn btn-primary btn-lg" href="${pageContext.request.contextPath}/Users/Update" role="button">Add user</a>
+        <a class="btn btn-primary btn-lg" href="${pageContext.request.contextPath}/Users/Create" role="button">Add user</a>
     </c:if>
     <c:forEach var="user" items="${users}" varStatus="status">
         <div class="row">

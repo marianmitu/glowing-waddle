@@ -36,8 +36,8 @@
                 <label for="position" class="form-label">Position</label>
                 <select class="custom-select d-block w-100" id="position" name="position" required>
                     <option value="">Choose...</option>
-                    <option vale="">ADMINISTRATOR</option>
-                    <option value="">CLIENT</option>
+                    <option vale="ADMINISTRATOR">ADMINISTRATOR</option>
+                    <option value="CLIENT">CLIENT</option>
                 </select>
                 <div class="invalid-feedback">
                     Please select an owner.
